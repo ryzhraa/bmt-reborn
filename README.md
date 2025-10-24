@@ -119,4 +119,4 @@ Regulasi acuan: UU No. 25/1992 dan POJK No. 62/POJK.05/2015.
 Proyek ini dibuat untuk tujuan pendidikan dan non-komersial.  
 Seluruh konten bersifat **open-source educational prototype**.
 
-© 2025 **BMT REBORN Prototype** | Dibuat oleh **Kelompok 1 Keuangan Mikro Islam UPI**
+© 2025 **BMT REBORN Prototype** | Dibuat oleh **Kelompok 1 Keuangan Mikro Islam UPI** 
