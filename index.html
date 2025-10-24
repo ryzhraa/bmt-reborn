@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BMT REBORN — Prototype</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="logo.png" alt="BMT REBORN Logo" class="logo" />
+        <div class="brand-text">
+          <h1>BMT REBORN</h1>
+          <p class="tagline">FAITH. ETHICS. INTELLIGENCE.</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#home">Beranda</a>
+        <a href="#profil">Profil</a>
+        <a href="#visi">Visi & Misi</a>
+        <a href="#produk">Produk</a>
+        <a href="#inovasi">Inovasi</a>
+        <a href="#badan-hukum">Badan Hukum</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Buka menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>From Transaction to Transformation</h2>
+          <p class="lead">Prototype Lembaga Keuangan Mikro Syariah berbasis akhlak finansial dan inovasi digital.</p>
+          <a class="btn" href="#profil">Lihat Profil</a>
+        </div>
+        <div class="hero-card">
+          <img src="logo.png" alt="logo" />
+          <p class="status">Status: <strong>Prototype (Belum berbadan hukum)</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="profil" class="container section card">
+      <h3>Profil Singkat</h3>
+      <p>BMT REBORN adalah prototipe Lembaga Keuangan Mikro Syariah yang mengintegrasikan prinsip-prinsip syariah dengan teknologi digital cerdas untuk membentuk akhlak finansial anggota (behavioral Islamic finance). Fokus utama prototipe ini adalah mendukung mahasiswa dan UMKM mikro melalui solusi pembiayaan yang adil, transparan, dan bernilai ibadah.</p>
+    </section>
+
+    <section id="visi" class="container section">
+      <div class="grid">
+        <div class="card">
+          <h3>Visi</h3>
+          <p>Mewujudkan lembaga keuangan mikro syariah yang adaptif, inklusif, dan memberdayakan melalui inovasi digital yang bertumpu pada akhlak finansial.</p>
+        </div>
+        <div class="card">
+          <h3>Misi</h3>
+          <ol>
+            <li>Menyediakan layanan keuangan mikro syariah yang mudah diakses dan transparan.</li>
+            <li>Meningkatkan literasi serta akhlak finansial anggota.</li>
+            <li>Mengembangkan produk pembiayaan berbasis prinsip syariah dan teknologi cerdas.</li>
+            <li>Membangun ekosistem ekonomi mikro yang berkelanjutan dan berkeadaban.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="produk" class="container section card">
+      <h3>Produk & Layanan</h3>
+      <div class="grid products">
+        <article class="product">
+          <h4>BUKTI</h4>
+          <p>Qardhul Hasan / bantuan lunak untuk kebutuhan pendidikan mahasiswa (contoh: UKT).</p>
+        </article>
+        <article class="product">
+          <h4>PUMA</h4>
+          <p>Pembiayaan usaha mahasiswa berbasis Mudharabah / Musyarakah untuk bisnis skala mikro.</p>
+        </article>
+        <article class="product">
+          <h4>TANDA</h4>
+          <p>Tabungan digital amanah dengan fitur budgeting dan pembagian dana untuk sedekah otomatis.</p>
+        </article>
+        <article class="product">
+          <h4>REBORN ASSIST</h4>
+          <p>Auto Sadaqah System terintegrasi — donasi mikro otomatis untuk program sosial.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="inovasi" class="container section">
+      <h3>Inovasi Digital</h3>
+      <p>BMT REBORN mengusulkan beberapa inovasi digital pada prototipe ini: penggunaan AI untuk scoring kelayakan non-tradisional, fitur auto-sadaqah, dashboard anggota berbasis web, serta notifikasi dan pembelajaran perilaku finansial terpersonalisasi.</p>
+      <ul>
+        <li>AI-based credit scoring (behavioral signals)</li>
+        <li>Auto Sadaqah & Savings Split</li>
+        <li>Dashboard keuangan anggota (report & progress)</li>
+        <li>Integrasi dengan Google Forms / Firebase untuk validasi data</li>
+      </ul>
+    </section>
+
+    <section id="badan-hukum" class="container section card">
+      <h3>Badan Hukum</h3>
+      <p>Saat ini <strong>BMT REBORN</strong> berstatus <em>prototype</em> dan belum memiliki badan hukum resmi. Rencana badan hukum yang disiapkan adalah <strong>Koperasi Jasa Keuangan Syariah (KJKS)</strong> sesuai ketentuan Undang-Undang Republik Indonesia tentang Perkoperasian. Nantinya proses pendaftaran akan diajukan ke Kementerian Koperasi dan Usaha Kecil Menengah dan dilengkapi pengawasan Dewan Pengawas Syariah (DPS).</p>
+    </section>
+
+    <section id="kontak" class="container section card">
+      <h3>Kontak & Demo</h3>
+      <p>Untuk demo prototype dan kerjasama, hubungi tim kami lewat form di bawah ini atau email: <strong>bmtreborn25@gmail.com</strong></p>
+
+      <form id="contactForm" class="contact-form">
+        <label for="name">Nama</label>
+        <input id="name" type="text" placeholder="Nama lengkap" required />
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="email@domain.com" required />
+        <label for="message">Pesan singkat</label>
+        <textarea id="message" placeholder="Halo, saya tertarik..." required></textarea>
+        <button type="submit" class="btn">Kirim Pesan (Demo)</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2025 BMT REBORN Prototype | Dibuat oleh Kelompok 1 Keuangan Mikro Islam UPI<br>
+Naila Faiza (2305216) • Radhitya Rasikh Hammam (2309358) • Rifa Yana Azahraa (2309241) • Sakira Azahra Lutvianti (2304019)<br>
+📧 bmtreborn25@gmail.com</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

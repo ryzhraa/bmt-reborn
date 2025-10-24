@@ -1,0 +1,17 @@
+:root{
+  --bg:#0A1E2E;
+  --card:#071925;
+  --accent1:#2EC497;
+  --accent2:#FDBB2D;
+  --text:#E8F6F9;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;background:var(--bg);color:var(--text);}
+.container{max-width:1100px;margin:0 auto;padding:24px}
+header{position:sticky;top:0;background:#0A1E2E;display:flex;justify-content:space-between;align-items:center;padding:10px 20px;border-bottom:1px solid rgba(255,255,255,0.1)}
+.logo{width:56px;height:56px;object-fit:contain}
+.nav a{color:var(--text);margin:0 8px;text-decoration:none}
+.hero{padding:50px 0;text-align:center;background:linear-gradient(180deg,#0A1E2E,#071925)}
+.btn{display:inline-block;background:linear-gradient(90deg,var(--accent1),var(--accent2));color:#04232b;padding:10px 20px;border-radius:999px;text-decoration:none;font-weight:600}
+.card{background:#071925;padding:20px;border-radius:10px;margin:20px 0}
+footer{text-align:center;padding:20px 0;background:#071925;color:rgba(255,255,255,0.8);font-size:0.9rem}
